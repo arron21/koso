@@ -19,7 +19,7 @@
     <header class="header" role="banner">
       <div class="logo">
         <a href="#top">
-          <img src="/img/logo.svg" alt="Logo">
+          Logo
         </a>
       </div>
       <nav class="nav nav--main" role="navigation">
@@ -82,20 +82,38 @@
           <h3>Fully Responsive</h3>
           <p>Responsive out of the box. Custom JavaScript mobile navigation.</p>
 
+          <h3>Simple HTML sections</h3>
+          <p>The first heading tag for any section is large and centered in that section</p>
     </section>
 
 
   <section style="background-image: url('/img/pexels-photo-89858.jpg');" class="parallax-bg">
     <h3 class="parallax-bg__heading">Parallax Images</h3>
     <div class="parallax-bg__content">
-      <p>This background image can be changed in the <em>&lt;style&gt;</em> tag in the head of the <em>index.html</em> file.</p>
+      <p>Using the <code>.parallax-bg</code> class you can create a parallax background easily</p>
     </div>
   </section>
+
+  <section>
+    <h2>Columns</h2>
+    <p>Make as many columns as you want by adding the <code>.columns .columns--reversed</code> classes to a parent element</code></p>
+
+  </section>
+  <section class="columns">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+  </section>
+  
 
     <section class="columns">
       <div>
         <div class="columns__content">
-          <h3>Lorem Ipsum</h3>
+          <h3>Column Default</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
         </div>
       </div>
@@ -107,22 +125,16 @@
     <section class="columns columns--reversed">
       <div>
         <div class="columns__content">
-          <h3>Lorem Ipsum</h3>
+          <h3>Columns Reversed</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
         </div>
       </div>
       <div>
         <img src="/img/pexels-photo-121537.jpg" data-action="zoom" />
-
       </div>
     </section>
 
-    <section style="background-image: url('/img/pexels-photo-121533.jpg');" id="parallax2" class="parallax-bg">
-      <h3 class="parallax-bg__heading">Lorem Ipsum</h3>
-      <div class="parallax-bg__content">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-      </div>
-    </section>
+
 
 
     <section id="map" class="googlemap arron-class1 as-many-classes-as-you-want">
