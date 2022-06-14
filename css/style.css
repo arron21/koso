@@ -17,7 +17,8 @@
 
 html {
   background: #fafafa;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  scroll-padding-top: 57px; }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
